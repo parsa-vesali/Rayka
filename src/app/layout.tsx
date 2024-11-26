@@ -1,8 +1,6 @@
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
-import { Inter } from "next/font/google";
 
-const font = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
     children,
@@ -10,12 +8,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" suppressHydrationWarning>
+        <html lang="en" dir="rtl" suppressHydrationWarning>
             <body
                 className={cn(
-                    "min-h-screen bg-background text-foreground antialiased max-w-full overflow-x-hidden",
-                    font.className
-                )}
+                    "min-h-screen font-Dana bg-background text-foreground antialiased max-w-full overflow-x-hidden",)}
             >
                 {children}
             </body>

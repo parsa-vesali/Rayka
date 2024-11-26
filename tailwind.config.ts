@@ -15,6 +15,11 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'Dana': "Dana",
+        'Dana-Medium': "Dana Medium",
+        'Dana-Bold': "Dana Bold",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

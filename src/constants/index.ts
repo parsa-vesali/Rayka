@@ -3,143 +3,144 @@ import { Icons } from "@/components";
 export const perks = [
     {
         icon: Icons.auth,
-        title: "Sign Up",
-        info: "Create your free account to get started with Astra.",
+        title: "ثبت‌نام",
+        info: "حساب رایگان خود را در Astra بسازید و شروع کنید.",
     },
     {
         icon: Icons.customize,
-        title: "Customize",
-        info: "Choose a template and customize it to fit your needs.",
+        title: "شخصی‌سازی",
+        info: "یک قالب انتخاب کنید و آن را مطابق نیازهای خود تنظیم کنید.",
     },
     {
         icon: Icons.launch,
-        title: "Launch",
-        info: "Publish your website and share it with the world.",
+        title: "راه‌اندازی",
+        info: "وب‌سایت خود را منتشر کرده و آن را با دیگران به اشتراک بگذارید.",
     },
 ];
 
 export const features = [
     {
         icon: Icons.bolt,
-        title: "Fast Setup",
-        info: "Get your website up and running in minutes with our intuitive AI-powered builder.",
+        title: "شروع سریع",
+        info: "با استفاده از سازنده بصری هوش مصنوعی، وب‌سایت خود را در چند دقیقه راه‌اندازی کنید.",
     },
     {
         icon: Icons.palette,
-        title: "Customizable Templates",
-        info: "Choose from a variety of stunning templates and customize them to suit your brand.",
+        title: "قالب‌های قابل تنظیم",
+        info: "از میان قالب‌های جذاب انتخاب کنید و مطابق برند خود تغییرشان دهید.",
     },
     {
         icon: Icons.seo,
-        title: "SEO Optimized",
-        info: "Built-in SEO features ensure your website ranks well on search engines.",
+        title: "سئو بهینه",
+        info: "ویژگی‌های داخلی سئو باعث می‌شود وب‌سایت شما در موتورهای جستجو بهتر دیده شود.",
     },
     {
         icon: Icons.monitor,
-        title: "Responsive Design",
-        info: "Your website will look great on any device, from desktops to mobile phones.",
+        title: "طراحی واکنش‌گرا",
+        info: "وب‌سایت شما در تمامی دستگاه‌ها، از دسکتاپ تا موبایل، زیبا نمایش داده می‌شود.",
     },
     {
         icon: Icons.shop,
-        title: "E-Commerce Ready",
-        info: "Start selling online with our e-commerce features and integrations.",
+        title: "آماده برای تجارت الکترونیک",
+        info: "با ابزارها و ادغام‌های تجارت الکترونیک، فروش آنلاین را آغاز کنید.",
     },
     {
         icon: Icons.server,
-        title: "Secure Hosting",
-        info: "Enjoy peace of mind with secure and reliable hosting for your website.",
+        title: "میزبانی امن",
+        info: "با میزبانی امن و مطمئن، نگرانی‌های خود را در مورد وب‌سایت کاهش دهید.",
     },
 ];
 
 export const pricingCards = [
     {
-        title: "Starter",
-        description: "Perfect for trying out plura",
-        price: "Free",
+        title: "استارتر",
+        description: "مناسب برای شروع استفاده از Plura",
+        price: "رایگان",
         duration: "",
-        highlight: "Key features",
-        buttonText: "Start for free",
-        features: ["Limited projects", "1 Team member", "Basic features"],
+        highlight: "ویژگی‌های اصلی",
+        buttonText: "شروع رایگان",
+        features: ["پروژه‌های محدود", "یک عضو تیم", "ویژگی‌های پایه"],
         priceId: "",
     },
     {
-        title: "Unlimited Saas",
-        description: "The ultimate agency kit",
-        price: "$199",
-        duration: "month",
-        highlight: "Key features",
-        buttonText: "Upgrade to Pro",
-        features: ["Unlimited projects", "5 Team members", "Advanced design tools", "Customizable domain"],
+        title: "نامحدود SaaS",
+        description: "مجموعه کامل برای آژانس‌ها",
+        price: "۱۹۹ دلار",
+        duration: "ماه",
+        highlight: "ویژگی‌های اصلی",
+        buttonText: "ارتقا به پرو",
+        features: ["پروژه‌های نامحدود", "۵ عضو تیم", "ابزارهای طراحی پیشرفته", "دامنه سفارشی"],
         priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
     },
     {
-        title: "Enterprise",
-        description: "For serious agency owners",
-        price: "$399",
-        duration: "month",
-        highlight: "Everything in Starter, plus",
-        buttonText: "Upgrade to Enterprise",
-        features: ["Unlimited projects", "Unlimited Team members", "Custom branding", "Priority support (24/7)"],
+        title: "اینترپرایز",
+        description: "برای صاحبان حرفه‌ای آژانس",
+        price: "۳۹۹ دلار",
+        duration: "ماه",
+        highlight: "هر آنچه در استارتر به‌علاوه",
+        buttonText: "ارتقا به اینترپرایز",
+        features: ["پروژه‌های نامحدود", "اعضای تیم نامحدود", "برندینگ سفارشی", "پشتیبانی اولویت‌دار (۲۴/۷)"],
         priceId: "price_1OYxkqFj9oKEERu1NbKUxXxN",
     },
 ];
 
 export const bentoCards = [
     {
-        title: 'Start with Inspiration',
-        info: 'Browse our vast library of pre-designed templates or upload your own images.',
-        imgSrc: '/assets/bento-1.svg', // Lightbulb or Inspiration icon
-        alt: 'Inspiration for website creation'
+        title: "شروع با الهام‌گیری",
+        info: "کتابخانه‌ای وسیع از قالب‌های آماده را مرور کنید یا تصاویر خود را آپلود کنید.",
+        imgSrc: "/assets/bento-1.svg", // نماد الهام
+        alt: "ایده‌هایی برای ایجاد وب‌سایت",
     },
     {
-        title: 'AI Assists Your Vision',
-        info: 'Our intelligent AI tailors suggestions and functionalities based on your goals.',
-        imgSrc: '/assets/bento1.svg', // AI Assistant icon
-        alt: 'AI website building assistant'
+        title: "هوش مصنوعی همراه شماست",
+        info: "هوش مصنوعی ما با توجه به اهداف شما، پیشنهادها و قابلیت‌های مناسب ارائه می‌دهد.",
+        imgSrc: "/assets/bento1.svg", // نماد هوش مصنوعی
+        alt: "دستیار هوش مصنوعی برای ساخت وب‌سایت",
     },
     {
-        title: 'Drag & Drop Customization',
-        info: 'Effortlessly personalize your website with our intuitive drag-and-drop editor.',
-        imgSrc: '/assets/bento1.svg', // Drag and Drop icon or hand editing a website
-        alt: 'Website customization with drag and drop'
+        title: "شخصی‌سازی با کشیدن و رها کردن",
+        info: "با ویرایشگر ساده ما، وب‌سایت خود را به‌راحتی سفارشی کنید.",
+        imgSrc: "/assets/bento1.svg", // نماد کشیدن و رها کردن
+        alt: "شخصی‌سازی وب‌سایت با کشیدن و رها کردن",
     },
     {
-        title: 'Launch & Shine Online',
-        info: 'Publish your website with a single click and take your brand to the world.',
-        imgSrc: '/assets/bento1.svg', // Rocket launching or website going live
-        alt: 'Website launch and publication'
+        title: "راه‌اندازی و بدرخشید",
+        info: "با یک کلیک وب‌سایت خود را منتشر کنید و برندتان را جهانی کنید.",
+        imgSrc: "/assets/bento1.svg", // نماد راه‌اندازی
+        alt: "راه‌اندازی و انتشار وب‌سایت",
+    },
+];
+export const reviews = [
+    {
+        name: "امیرحسین",
+        username: "@amirhossein",
+        body: "ابزار خیلی کاربردیه. تجربه خوبی بود.",
+    },
+    {
+        name: "سارا",
+        username: "@sara",
+        body: "بسیار راحت و مفید بود. خیلی سریع یاد گرفتم.",
+    },
+    {
+        name: "علیرضا",
+        username: "@alireza",
+        body: "کاملاً راضی‌ام. کار کردن باهاش لذت بخشه.",
+    },
+    {
+        name: "نازنین",
+        username: "@nazanin",
+        body: "واقعا عالیه. وقت و انرژی زیادی رو نجات داد.",
+    },
+    {
+        name: "سینا",
+        username: "@sina",
+        body: "کامل و بی‌نقص. فوق‌العاده کار می‌کنه.",
+    },
+    {
+        name: "مریم",
+        username: "@maryam",
+        body: "خیلی سریع و کاربردی. اصلاً مشکل نداشتم.",
     },
 ];
 
-export const reviews = [
-    {
-        name: "Jack",
-        username: "@jack",
-        body: "I've never seen anything like this before. It's amazing. I love it.",
-    },
-    {
-        name: "Jill",
-        username: "@jill",
-        body: "I don't know what to say. I'm speechless. This is amazing.",
-    },
-    {
-        name: "John",
-        username: "@john",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-    },
-    {
-        name: "Jane",
-        username: "@jane",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-    },
-    {
-        name: "Jenny",
-        username: "@jenny",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-    },
-    {
-        name: "James",
-        username: "@james",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-    },
-];
+
