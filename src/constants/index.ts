@@ -63,9 +63,9 @@ export const pricingCards = [
         priceId: "",
     },
     {
-        title: "نامحدود SaaS",
+        title: "نامحدود",
         description: "مجموعه کامل برای آژانس‌ها",
-        price: "۱۹۹ دلار",
+        price: "120,000 تومان",
         duration: "ماه",
         highlight: "ویژگی‌های اصلی",
         buttonText: "ارتقا به پرو",
@@ -73,9 +73,9 @@ export const pricingCards = [
         priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
     },
     {
-        title: "اینترپرایز",
+        title: "ویژه",
         description: "برای صاحبان حرفه‌ای آژانس",
-        price: "۳۹۹ دلار",
+        price: "300,000 تومان",
         duration: "ماه",
         highlight: "هر آنچه در استارتر به‌علاوه",
         buttonText: "ارتقا به اینترپرایز",

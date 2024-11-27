@@ -157,11 +157,11 @@ const HomePage = () => {
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-full md:gap-8 py-10 md:py-20 flex-wrap max-w-4xl">
                             {pricingCards.map((card) => (
                                 <Card key={card.title}
-                                    className={cn("flex flex-col w-full border-neutral-700 ", card.title === 'نامحدود SaaS' && "border-2 border-primary")}
+                                    className={cn("flex flex-col w-full border-neutral-700 ", card.title === 'نامحدود' && "border-2 border-primary")}
                                 >
-                                    <CardHeader className="border-b-2 border-border">
+                                    <CardHeader className="border-b-2 border-border space-y-2">
                                         <span>{card.title}</span>
-                                        <CardTitle className={cn(card.title !== 'نامحدود SaaS' && 'text-muted-foreground')}>
+                                        <CardTitle className={cn(card.title !== 'نامحدود' && 'text-muted-foreground')}>
                                             {card.price}
                                         </CardTitle>
                                         <CardDescription>
@@ -179,7 +179,7 @@ const HomePage = () => {
                                     </CardContent>
 
                                     <CardFooter className="mt-auto w-full" >
-                                        <Link href={'/'} className={cn('w-full text-center text-primary-foreground bg-primary p-2 rounded-md text-sm font-medium', card.title !== 'نامحدود SaaS' && '!bg-foreground !text-background')}>
+                                        <Link href={'/'} className={cn('w-full text-center text-primary-foreground bg-primary p-2 rounded-md text-sm font-medium', card.title !== 'نامحدود' && '!bg-foreground !text-background')}>
                                             {card.buttonText}
                                         </Link>
                                     </CardFooter>
